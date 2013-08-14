@@ -20,3 +20,4 @@
 Downloads
 bootstrap/bootstrap.log
 .m2/
+.lein/self-installs
