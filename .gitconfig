@@ -3,3 +3,5 @@
 [user]
 	email = darrell.noice@gmail.com
 	name = Darrell Hamilton
+[core]
+	excludesfile = ~/.gitignore
