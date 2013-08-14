@@ -22,6 +22,7 @@ do
   fi
 done
 
-echo -n ${ORDERED[@]} | sort -n | xargs -i {}
-echo -n ${UNORDERED[@]} | xargs -i {}
+echo -n ${ORDERED[@]} | sort -n | xargs -i {} 2>&1 > $DIR/bootstrap.log
+echo -n ${UNORDERED[@]} | xargs -i {} 2>&1 >> $DIR/bootstrap.log
+
 

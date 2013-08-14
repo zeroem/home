@@ -18,5 +18,5 @@
 .xsession-errors.old
 .viminfo
 Downloads
-setup/setup.log
+bootstrap/bootstrap.log
 .m2/
