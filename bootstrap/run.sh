@@ -22,5 +22,5 @@ do
   fi
 done
 
-echo -n ${ORDERED[@]} | sort -n | xargs -d " " -I "{}" bash -c '{}' 2>&1 > $DIR/bootstrap.log
-echo -n ${UNORDERED[@]} | xargs -d " " -I "{}" bash -c '{}' 2>&1 >> $DIR/bootstrap.log
+echo -n ${ORDERED[@]} | sort -n | xargs -d " " -I "{}" bash -c '{}' 
+echo -n ${UNORDERED[@]} | xargs -d " " -I "{}" bash -c '{}'
