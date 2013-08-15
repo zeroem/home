@@ -1,4 +1,5 @@
 *.swp
+.ssh
 .adobe
 .bash_history
 .cache
