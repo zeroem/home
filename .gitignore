@@ -20,5 +20,6 @@
 Downloads
 bootstrap/bootstrap.log
 .m2/
+bin
 .lein/self-installs
 .vim/vim-addons
