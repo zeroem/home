@@ -8,3 +8,4 @@
 
 [alias]
   dc = diff --cached
+  lg = log --graph --format=oneline --abbrev-commit
