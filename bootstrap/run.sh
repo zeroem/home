@@ -2,6 +2,8 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+cat ${DIR}/packages | xargs sudo apt-get --assume-yes install 
+
 SCRIPTS=`find "${DIR}/scripts" -type f -executable -print`
 SCRIPTS_LEN=${#SCRIPTS[@]}
 
