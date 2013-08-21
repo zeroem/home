@@ -21,6 +21,6 @@ fun SetupVAM()
     execute '!git clone --depth=1 git://github.com/MarcWeber/vim-addon-manager '
                 \       shellescape(c.plugin_root_dir.'/vim-addon-manager', 1)
   endif
-  call vam#ActivateAddons('ctrlp')
+  call vam#ActivateAddons('ctrlp', 'vim-fireplace', 'vim-classpath', 'vim-clojure-static')
 endfun
 call SetupVAM()
