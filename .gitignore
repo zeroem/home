@@ -7,6 +7,7 @@ bootstrap/bootstrap.log
 .dbus
 .dmrc
 Downloads
+.eagle
 .gconf
 .gksu.lock
 .gstreamer-0.10
@@ -16,7 +17,9 @@ Downloads
 .local
 .m2/
 .macromedia
+NOTES.markdown
 .pki
+projects
 .purple
 .ssh
 *.swp
@@ -27,5 +30,3 @@ Downloads
 .xscreensaver
 .xsession-errors
 .xsession-errors.old
-NOTES.markdown
-.eagle
