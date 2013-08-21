@@ -11,8 +11,7 @@ Downloads
 .gconf
 .gksu.lock
 .gstreamer-0.10
-.lein/repl-history
-.lein/self-installs
+.lein
 .lesshst
 .local
 .m2/
