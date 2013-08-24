@@ -9,9 +9,11 @@ bootstrap/bootstrap.log
 Downloads
 .eagle
 .gconf
+.gem/
 .gksu.lock
 .gstreamer-0.10
-.lein
+.java/
+.lein/
 .lesshst
 .local
 .m2/
@@ -23,6 +25,7 @@ projects
 .ssh
 *.swp
 .thumbnails
+.vagrant.d/
 .viminfo
 .vim/vim-addons
 .Xauthority*
