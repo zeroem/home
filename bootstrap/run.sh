@@ -2,6 +2,7 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+sudo apt-get update
 cat ${DIR}/packages | xargs sudo apt-get --assume-yes install 
 
 SCRIPTS=`find "${DIR}/scripts" -type f -executable -print`
@@ -26,3 +27,8 @@ done
 
 echo -n ${ORDERED[@]} | sort -n | xargs -d " " -I "{}" bash -c '{}' 
 echo -n ${UNORDERED[@]} | xargs -d " " -I "{}" bash -c '{}'
+
+if [ -f ~/.bootstrap ]
+then
+  . ~/.bootstrap
+fi

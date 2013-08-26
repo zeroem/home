@@ -1,6 +1,7 @@
 .adobe
 .bash_history
 bin
+.bootstrap
 bootstrap/bootstrap.log
 .cache
 .config
@@ -11,10 +12,12 @@ Downloads
 .gconf
 .gem/
 .gksu.lock
+.grails*
 .gstreamer-0.10
 .java/
 .lein/
 .lesshst
+lib
 .local
 .m2/
 .macromedia

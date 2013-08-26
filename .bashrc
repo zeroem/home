@@ -114,3 +114,9 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="${HOME}/bin:${PATH}"
+
+
+if [ -f ~/.bootstrap ]
+then
+  . ~/.bootstrap
+fi
