@@ -2,6 +2,11 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+if [ ! -f ~/.ssh/id_rsa ]
+then
+  ssh-keygen -q -t rsa -b 2048 -N "" -f ~/.ssh/id_rsa
+fi
+
 sudo apt-get update
 cat ${DIR}/packages | xargs sudo apt-get --assume-yes install 
 
