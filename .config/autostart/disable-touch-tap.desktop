@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Disable Tap-Click
+Comment=Friggin tap clicks
+Exec=synclient MaxTapTime=0
+NoDisplay=true

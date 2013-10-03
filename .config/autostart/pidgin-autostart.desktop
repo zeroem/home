@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Pidgin Autostart
+Comment=Start Pidgin
+Exec=pidgin
+OnlyShowIn=LXDE
