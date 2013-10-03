@@ -17,7 +17,7 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-packages '(better-defaults evil paredit nrepl)
+(defvar my-packages '(better-defaults evil paredit nrepl yaml-mode)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
