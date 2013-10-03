@@ -27,6 +27,7 @@ projects
 .purple
 .ssh
 *.swp
+*~
 .thumbnails
 .vagrant.d/
 .viminfo
@@ -35,3 +36,5 @@ projects
 .xscreensaver
 .xsession-errors
 .xsession-errors.old
+.emacs.d
+workspaces
