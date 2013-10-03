@@ -4,5 +4,7 @@ git
 htop
 lxc
 openjdk-7-jdk
+python-pip
+python-virtualenv
 tig
 vim
