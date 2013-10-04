@@ -7,4 +7,5 @@ openjdk-7-jdk
 python-pip
 python-virtualenv
 tig
+tmux
 vim

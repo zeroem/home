@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+  SOCKET=/tmp/shared-tmux
+else
+  SOCKET=$1
+fi
+
+tmux -S $SOCKET attach
+
+if [ $? -ne 0 ]
+then
+  tmux -S $SOCKET new
+fi
+
+
