@@ -2,6 +2,7 @@ eagle
 emacs24-nox
 git
 htop
+libnotify-bin
 lxc
 openjdk-7-jdk
 python-pip
