@@ -114,7 +114,7 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="${HOME}/bin:${PATH}"
-export VAGRAND_DEFAULT_PROVIDER=lxc
+export VAGRANT_DEFAULT_PROVIDER=lxc
 
 
 if [ -f ~/.bootstrap ]
