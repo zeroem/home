@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ -z "${WORKSPACE_HOME}" ]
+then
+   WORKSPACE_HOME=~/workspaces
+fi
+
+WS=$1
+
+if [ -z "${WS}" ]
+then
+    echo "No such workspace '${WS}' in ${WORKSPACE_HOME}"
+    exit 1
+fi
+
+cd ${WORKSPACE_HOME}/${WS}
+vagrant up
+vagrant ssh
