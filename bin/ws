@@ -14,5 +14,13 @@ then
 fi
 
 cd ${WORKSPACE_HOME}/${WS}
-vagrant up
+DUMMY=$( vagrant status | grep running )
+
+if [ $? -eq 0 ]
+then
+    echo "VM already running..."
+else
+    vagrant up
+fi
+
 vagrant ssh
