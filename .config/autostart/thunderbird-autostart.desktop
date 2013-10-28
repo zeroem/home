@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Thunderbird Autostart
+Comment=Thunderbird
+Exec=thunderbird
+OnlyShowIn=LXDE
