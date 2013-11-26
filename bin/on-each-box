@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# v status | grep lxc | cut -d \  -f 1 | xargs -I {} vagrant ssh {} -c "cat /etc/hosts"
+
+items=$(vagrant status | grep running | grep lxc | cut -d ' ' -f 1)
+
+for item in $items
+do
+  vagrant ssh $item -c "$*"
+done
