@@ -115,6 +115,7 @@ fi
 
 export PATH="${HOME}/bin:${PATH}"
 export VAGRANT_DEFAULT_PROVIDER=lxc
+export EDITOR=vim
 
 
 if [ -f ~/.bootstrap ]
