@@ -6,5 +6,6 @@ items=$(vagrant status | grep running | grep lxc | cut -d ' ' -f 1)
 
 for item in $items
 do
+  echo "${item}: "
   vagrant ssh $item -c "$*"
 done
