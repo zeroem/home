@@ -6,7 +6,7 @@ then
 fi
 
 WS=$1
-WS_PATH="${WORSPACE_HOME}/${WS}"
+WS_PATH="${WORKSPACE_HOME}/${WS}"
 
 if [ -z "${WS}" -o ! -f "${WS_PATH}/Vagrantfile" ]
 then
