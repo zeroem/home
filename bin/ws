@@ -6,8 +6,9 @@ then
 fi
 
 WS=$1
+WS_PATH="${WORSPACE_HOME}/${WS}"
 
-if [ -z "${WS}" ]
+if [ -z "${WS}" -o ! -f "${WS_PATH}/Vagrantfile" ]
 then
     echo "No such workspace '${WS}' in ${WORKSPACE_HOME}"
     exit 1
