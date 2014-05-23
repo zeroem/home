@@ -38,3 +38,5 @@ projects
 .xsession-errors.old
 .emacs.d
 workspaces
+\#*\#
+.\#*
