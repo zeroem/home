@@ -5,6 +5,10 @@ set ai
 set nu
 set hlsearch
 
+
+let g:paredit_shortmaps=1
+let g:paredit_smartjump=1
+
 " Vim Addon Manager
 set nocompatible | filetype indent plugin on | syn on
 
@@ -32,6 +36,6 @@ fun SetupVAM()
 
   let g:vim_addon_manager.auto_install = 1
 
-  call vam#ActivateAddons('ctrlp', 'vim-fireplace', 'vim-classpath', 'vim-clojure-static')
+  call vam#ActivateAddons('ctrlp', 'vim-fireplace', 'vim-classpath', 'vim-clojure-static', 'paredit', 'rainbow_parentheses', 'vim-clojure-highlight', 'neocomplcache')
 endfun
 call SetupVAM()
